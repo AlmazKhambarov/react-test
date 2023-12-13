@@ -26,7 +26,7 @@ const Index = () => {
   return (
     <>
       <ProgressBar progress={progress} />
-      <Message visible={visible}  status={false}/>
+      <Message visible={visible}  status={true}/>
       <div className='forms'>
         {forms.map((Form, index) => (
           <div
