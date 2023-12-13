@@ -25,7 +25,7 @@ const About = ({ setCurrentFormIndex, setVisible }) => {
   }
 
   const onFinish = (values) => {
-    Post(values);
+    // Post(values);
     setVisible(true)
   };
 
