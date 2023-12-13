@@ -1,0 +1,14 @@
+/** @format */
+
+.App {
+    position: relative;
+  padding: 30px 60px;
+  width: 70%;
+  margin: 24px auto;
+  transition: 0.2s ease;
+  border-radius: 12px 12px 0px 0px;
+  background: var(--grey-0-white, #fff);
+  min-height: 650px;
+  height: 40vh;
+  overflow-x: hidden;
+}

@@ -1,0 +1,73 @@
+/** @format */
+body {
+  background: var(--bg-layout-white, #f4f4f5);
+}
+.main {
+  .header {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #00000014;
+    padding: 15px 0px;
+    div {
+      .social {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        span {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          a {
+            text-decoration: none;
+            color: var(--purple-100, #5558fa);
+            font-family: TT Travels;
+          }
+        }
+      }
+    }
+    h2 {
+      color: var(--work-presets-text-white-mode-primary-g-800, #333);
+      font-family: TT Travels;
+      font-size: 27px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px;
+    }
+    .profile {
+      display: flex;
+      width: 80px;
+      height: 80px;
+      padding: 14px 13px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      border-radius: 100px;
+      background: var(--preset-tag-blue-light, #d5e4f7);
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+  div {
+    Form {
+      margin-top: 30px;
+      Input {
+        padding: 15px;
+        border-radius: 4px;
+        border: 1px solid var(--black-alpha-alpha-16, rgba(0, 0, 0, 0.16));
+        background: var(--black-alpha-alpha-4, rgba(0, 0, 0, 0.04));
+      }
+    }
+    button {
+      color: var(--grey-0-white, #fff);
+      outline: none;
+      border: none;
+      padding: 12px 16px;
+      border-radius: 4px;
+      background: var(--purple-100, #5558fa);
+    }
+    button:hover :active {
+      //   background-color: #fff;
+    }
+  }
+}

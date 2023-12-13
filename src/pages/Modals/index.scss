@@ -1,0 +1,16 @@
+.forms {
+    display: flex;
+    width: 300%;
+    position: relative;
+    transition: 0.4s ease;
+    flex-direction: column;
+    // min-height: 450px;
+  }
+  .form {
+    transition: transform 0.5s ease;
+    position: absolute;
+    width: calc(58% - 5px);
+    &.active {
+      position: initial;
+    }
+  }
