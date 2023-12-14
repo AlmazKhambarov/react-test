@@ -56,12 +56,12 @@ const Main = () => {
               required
             />
           </Col>
-          <Col xs={14} sm={14} md={10}>
+          <Col xs={24} sm={24} md={10}>
             <Form.Item label='Email' name='email'
             rules={[{
                 required:true,
                 message:"Email должен соддержить @"
-
+                
             }]}>
               <Input
                 placeholder='webstudio.fractal@example.com'

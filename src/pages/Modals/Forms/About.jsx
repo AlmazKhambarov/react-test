@@ -34,7 +34,7 @@ const About = ({ setCurrentFormIndex, setVisible }) => {
       {/* <Message visible={visible}/> */}
       <div className='form'>
         <Form name='AboutInfo' layout='vertical' onFinish={onFinish}>
-          <Col xs={14} sm={14} md={24}>
+          <Col xs={24} sm={24} md={24}>
             <Form.Item
               label='О Себе'
               name='title'
